@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Adaptaveis</title>
+</head>
+<body>
+    <h1>Imagens adaptáveis  </h1>
+    
+    <p>Podemos adaptar nossa imagem para todos os dispositiveis com nosso HTML5<br>
+        fazendo com que a imagem se adapte nos diferentes tipos de tamanho.</p>
+        <p>Para colocarmos as imagens flexíveis em um site devesmo usar ao invés da teg img usamos a tag picture </p>
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+  
+</body>
+</html>
