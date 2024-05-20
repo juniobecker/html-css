@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
         table{
             width: 500px;
             border-collapse: collapse;
@@ -16,26 +19,40 @@
         th {
             padding: 5px;
         }
+
+        .titulo {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+
+        .categoria {
+            text-align: center;
+        }
         
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <th rowspan="2">Área</th>
-            <th rowspan="2">Disciplina</th>
-            <th colspan="2">Notas</th>
-            <th rowspan="2">Média</th>
+            <th rowspan="2" class="titulo">Área</th>
+            <th rowspan="2" class="titulo">Disciplina</th>
+            <th colspan="2" class="titulo">Notas</th>
+            <th rowspan="2" class="titulo">Média</th>
             <tr>
-                <th>Notas 1</th>
-                <th>Notas 2</th>
+                <th class="titulo">Notas 1</th>
+                <th class="titulo">Notas 2</th>
             </tr>
 
         </thead>
         <tbody>
             <tr>
                 
-                <td rowspan="4">exatas</td>
+                <td rowspan="4" class="categoria">
+                    <strong>
+                        Exatas
+                    </strong>
+                </td>
                 <td >Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -61,8 +78,26 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <td colspan="4">Média de Exatas</td>
+                <td colspan="4" class="titulo">Média de Exatas</td>
+                <td class="titulo">0.0</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" class="categoria"><strong>Humanas</strong></td>
+                <td>História</td>
                 <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="titulo">Média Humanas</td>
+                <td class="titulo">0.0</td>
             </tr>
         </tbody>
     </table>
