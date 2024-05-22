@@ -28,6 +28,13 @@
 
         .categoria {
             text-align: center;
+            
+        }
+
+        .subtitulo {
+            text-align: left;
+            background-color: gray;
+            color: white;
         }
         
     </style>
@@ -35,24 +42,20 @@
 <body>
     <table>
         <thead>
-            <th rowspan="2" class="titulo">Área</th>
-            <th rowspan="2" class="titulo">Disciplina</th>
-            <th colspan="2" class="titulo">Notas</th>
-            <th rowspan="2" class="titulo">Média</th>
+            <th rowspan="2" class="titulo" scope="col">Área</th>
+            <th rowspan="2" class="titulo" scope="col">Disciplina</th>
+            <th colspan="2" class="titulo" scope="colgroup">Notas</th>
+            <th rowspan="2" class="titulo" scope="col">Média</th>
             <tr>
-                <th class="titulo">Notas 1</th>
-                <th class="titulo">Notas 2</th>
+                <th class="titulo" scope="col">Notas 1</th>
+                <th class="titulo" scope="col">Notas 2</th>
             </tr>
 
         </thead>
         <tbody>
             <tr>
                 
-                <td rowspan="4" class="categoria">
-                    <strong>
-                        Exatas
-                    </strong>
-                </td>
+                <th rowspan="4" class="categoria" scope="rowgroup">Exatas</th>
                 <td >Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -78,12 +81,12 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <td colspan="4" class="titulo">Média de Exatas</td>
+                <th colspan="4" class="subtitulo" scope="row">Média de Exatas</th>
                 <td class="titulo">0.0</td>
             </tr>
 
             <tr>
-                <td rowspan="2" class="categoria"><strong>Humanas</strong></td>
+                <th rowspan="2" class="categoria" scope="rowgroup">Humanas</th>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -96,7 +99,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <td colspan="4" class="titulo">Média Humanas</td>
+                <th colspan="4" class="subtitulo" scope="row">Média Humanas</th>
                 <td class="titulo">0.0</td>
             </tr>
         </tbody>
