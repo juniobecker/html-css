@@ -23,7 +23,7 @@ Grandes tels: acima de 1200px
     img#phone {display: none;}
     img#tablet {display: block; }
     img#print {display: none;}
-    img#pc {display: none;}
+    img#pc {display: none;} 
     img#tv {display: none;}
 
   
