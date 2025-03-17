@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Teste</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Página de Teste para Listas</h1>
+
+    <ul style="list-style-type: square;"> <!-- Lista não ordenada-->
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Leite</li>
+    </ul>
+    <ol start="45"> <!-- Lista ordenada-->
+        <li>Café</li>
+        <li>
+            Chá
+            <ul>
+                <li>Preto</li>
+                <li>Verde</li>
+                <li>Branco
+                    <ul>
+                        <li>Tipo 01</li>
+                        <li>Tipo 02</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Leite</li>
+    </ol>
+
+
+
+    <p>DICA IMPORTANTE: Os bullets (bolinhas dos itens) dos elementos < ul > fazem parte do conteúdo do elemento, mas ficam fora da área de padding e border, por padrão. O box-sizing controla apenas width, padding e border, mas os bullets não estão dentro dessa lógica.SOLUÇÃO:Usar list-style-position: inside; Isso faz com que os bullets fiquem dentro do conteúdo do elemento.</p>
+</body>
+</html>
