@@ -1,0 +1,36 @@
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'indie flower', cursive;
+}
+
+table {
+    width: 600px;
+
+}
+
+table thead {
+    background-color: #ccc;
+    text-align: left;
+}
+
+table tbody {
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+
+tbody tr:nth-child(even) { /*Este comando serve para que na table ela demarque as linha impares sendo marcada com uma sim e a outra não, sendo que podemos optar em estilizações diversas para o "even"*/
+    background-color: #EEE;
+}
