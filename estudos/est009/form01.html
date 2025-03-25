@@ -4,24 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Teste</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <form action="" method="post">
+    <form method="POST" action="blalblabal.php">
 
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label for="name1">
                 Nome Completo: <br>
-                <input type="text" name="name" id="name1">
+                <input type="text" name="name" id="name1" required minlength="2" maxlength="4">
             </label> <br>
             <label for="lestname1">
                 Sobrenome: <br>
-                <input type="text" name="lestname" id="lestname1">
+                <input type="text" name="lestname" id="lestname1" required>
             </label>
         </fieldset>
 
@@ -36,9 +33,9 @@
                 <input type="text" name="companyjobtitle" id="companyjobtitle1">
             </label>
         </fieldset>
-
+        
         <input type="submit" value="Cadastrar">
-
+        
     </form>
     
 
