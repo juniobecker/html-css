@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <form method="get" action="paginas/login01.html">
+    <form method="post" action="paginas/login01.html" enctype="multipart/form-data">
             <!--O atributo input type="hidden" no HTML5 é usado para armazenar informações que você não quer que o usuário veja na página, mas que precisa enviar para o servidor quando o formulário for submetido. Como exemplos de uso, podemos citar 1. Rastrear a origem de uma campanha de marketing 2. Passar o ID do produto em um e-commerce 3. Usar um token de segurança (CSRF Token)  4. Identificar o usuário logado 5. Capturar a data e hora do envio-->
             <input type="hidden" name="country" id="JP">
 
@@ -22,6 +22,11 @@
             <label for="lestname1">
                 Sobrenome: <br>
                 <input type="text" name="lestname" id="lestname1" required>
+            </label> <br>
+            
+            <label for="">
+                Foto: <br>
+                <input type="file" name="" id="" accept="application/pdf">
             </label> <br>
 
             <label for="yers1">
