@@ -1,19 +1,16 @@
-html {
-    font-size: 15px;
-}
-
-
-
-h1 {
-    font-size: 3em;
+body {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .box {
-    font-size: 2em;
+    width: 50%;
+    background-color: #999;
+
 }
 
 .box-inteiro {
-    width: 10rem;
-    height: 10rem;
-    background-color: #999;
+    width: 50%;
+    background-color: #333;
+    color: white;
+    width: 12ch;
 }
