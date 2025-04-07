@@ -1,5 +1,42 @@
-img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
+body {
+    background-color: green;
+}
+
+@media (max-width:1500px) {
+    body {
+        background-color: blue;
+
+    }
+}
+
+@media (min-width:700px) and (max-width:1000px) {
+    body {
+        background-color: purple;
+    }
+}
+
+
+@media (max-width:600px) {
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        width: 400px;
+        padding: 22px;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+        font-size: 25px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    h1:hover {
+        transform: scale(1.1);
+        transition: 1s;
+
+    }
 }
