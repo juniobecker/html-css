@@ -1,2 +1,15 @@
 @charset "UTF-8";
 
+input[type = "submit"] {
+    border-radius: 5px;
+    border: none;
+    background-color: #cccc;
+}
+input[type = "submit"]:hover {
+    background-color: #60b8ff;
+    border: 1px solid black;
+    cursor: pointer;
+    transform: translatey(-1px);
+    transition: transform 0.2s;
+}
+
