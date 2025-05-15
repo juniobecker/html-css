@@ -8,8 +8,8 @@
 </head>
 <body>
     <form action="" method="post">
-        <input type="search" name="search" id="">
-        <input type="email" name="email" id=""  required placeholder="Digite seu email">
+        <input type="search" name="search" id="" minlength="3">
+        <input type="email" name="email" id=""  required placeholder="Digite seu email" autofocus maxlength="6">
         <input type="url" name="url" id="">
         <input type="tel" name="tel" id="">
         <input type="range" min="1" name="" id="">
@@ -19,8 +19,11 @@
 </form>
 
     <div>...</div>
-    <video width="140" height="240" controls autoplay>
+    <video width="140" height="240" controls autoplay muted>
         <source src="vídeo-teste.mp4" type="video/mp4" />
     </video>
+    <audio controls muted preload>
+        <source src="bora-vava.mp3" type="audio/mpeg"/>
+    </audio>
 </body>
 </html>
