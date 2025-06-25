@@ -38,6 +38,20 @@ input[type = "submit"]:hover {
     position: relative;
     animation: exemplo 5s infinite;
     animation-delay: 0.5s;
+    
         
 }
 
+.exemplo2 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    position: relative;
+    transition: all 0.5s linear;
+    
+}
+
+.exemplo2:hover {
+    width: 250px;
+    background-color: yellow;
+}
