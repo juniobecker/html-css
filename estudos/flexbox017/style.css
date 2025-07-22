@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.container {
+    background-color: #f0f0f0;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container div {
+    background-color: red;
+    width: 100px;
+    height: 150px; 
+    
+}
