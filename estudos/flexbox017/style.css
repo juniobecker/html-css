@@ -1,17 +1,31 @@
 @charset "UTF-8";
 
+
+
+body {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     background-color: #f0f0f0;
-    height: 500px;
+    width: 760px;
+    height: 800px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     flex-wrap: wrap;
 }
 
 .container div {
     background-color: red;
-    width: 100px;
+    width: 150px;
     height: 150px; 
     
+}
+.top {
+    align-self: flex-start;
 }
