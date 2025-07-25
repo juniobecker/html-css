@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.logo {
+display: flex;
+align-items: center;
+   
+}
