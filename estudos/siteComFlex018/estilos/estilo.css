@@ -204,3 +204,26 @@ nav a:hover {
     height: 2px;
     background-color: #36a9e1;
 }
+
+.widget {
+    
+}
+
+/* .widget_body {
+    
+} */
+
+.row1, .row2, .row3 {
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+
+.quadrado {
+    background-color: #36a9e1;
+    height: 100px;
+    width: 100px;
+    
+} 
