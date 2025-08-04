@@ -188,3 +188,32 @@ p {
     height: 30px;
     background-color: rgb(163, 162, 162);
 }
+article .news_data {
+    display: flex;
+    gap: 2px;
+}
+
+article .news_posted_at {
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    padding:10px
+
+}
+article .news_comments {
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    padding:10px;
+    
+}
+article .news_thumbnail {
+    width: 100%;
+    height: auto;
+}
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
