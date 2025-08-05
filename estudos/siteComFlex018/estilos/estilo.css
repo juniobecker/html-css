@@ -38,7 +38,7 @@ nav li {
 a {
     text-decoration: none;
     padding: 10px;
-    color: #727272;
+    color: #333333;
 } 
 nav a:hover {
     cursor: pointer;
@@ -188,9 +188,19 @@ p {
     height: 30px;
     background-color: rgb(163, 162, 162);
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    min-width: 300px;
+}
+
 article .news_data {
     display: flex;
-    gap: 2px;
+    /* gap: 2px; */
 }
 
 article .news_posted_at {
@@ -210,10 +220,19 @@ article .news_comments {
 article .news_thumbnail {
     width: 100%;
     height: auto;
+    
 }
+article .news_thumbnail {
+    margin-top: 25px;
+     }
 article .news_title {
     margin-top: 25px;
     margin-bottom: 25px;
     color: black;
     font-size: 23px;
+}
+
+article .news_resume {
+    font-size: 14px;
+    line-height: 20px;
 }
