@@ -293,12 +293,48 @@ footer{
     display: flex;
     flex: 1;
     justify-content: space-between;
-    background-color: red;
+     background-color: #1e1e1e;
+    color: white;
     
 }
 
 .footer_areaitem {
     flex: 1;
+    color: #9b9b9b;
+    font-size: 13px;
+}
+
+.footercolor {
     color: white;
 }
 
+.textflex {
+    margin-top: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    
+}
+
+div > ul {
+    list-style: none;
+}
+.anos {
+    color:  #0074c7;
+}
+
+.divitem {
+    margin-bottom: 20px;
+}
+
+.social_icons {
+    display: flex;
+    gap: 10px;
+}
+
+.iconredes {
+    width: 30px;
+    height: 30px;
+    background-color: #444444;
+}
