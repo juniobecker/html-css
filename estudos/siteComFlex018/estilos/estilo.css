@@ -309,7 +309,7 @@ footer{
 }
 
 .textflex {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -337,4 +337,10 @@ div > ul {
     width: 30px;
     height: 30px;
     background-color: #444444;
+}
+
+.ana {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
