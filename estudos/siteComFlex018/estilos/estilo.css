@@ -5,9 +5,6 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
- body{
-    padding-bottom: 300px;
-} 
 header {
     display: flex;
     justify-content: center;
@@ -146,7 +143,7 @@ nav a:hover {
 }
 .widget_title {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .widget_title_text {
     color: black;
@@ -324,10 +321,6 @@ div > ul {
     color:  #0074c7;
 }
 
-.divitem {
-    margin-bottom: 20px;
-}
-
 .social_icons {
     display: flex;
     gap: 10px;
@@ -339,8 +332,10 @@ div > ul {
     background-color: #444444;
 }
 
-.ana {
+.footer_areaitem {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
+    padding: 5px;
 }
