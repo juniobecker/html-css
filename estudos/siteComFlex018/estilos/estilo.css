@@ -177,7 +177,7 @@ nav a:hover {
     height: 100px;
     width: 100px;  
 }
-p {
+.make {
     margin-top: 15px;
 }
 
@@ -290,7 +290,7 @@ footer{
     display: flex;
     flex: 1;
     justify-content: space-between;
-     background-color: #1e1e1e;
+    background-color: #1e1e1e;
     color: white;
     
 }
@@ -338,4 +338,58 @@ div > ul {
     justify-content: space-between;
     gap: 20px;
     padding: 5px;
+}
+
+.areaflex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.copy_right {
+    color: #9b9b9b;
+    font-size: 12px;
+    padding-top: 100px;
+    
+}
+
+.copy {
+    border-top: 1px solid #444444;
+    padding: 10px;
+}
+
+.detail {
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    /* nav > ul {
+        flex-direction: column;
+    } */
+    #banner {
+        
+    }
+    .banner_options {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #geral {
+        flex-direction: column;
+        height: auto;
+    }
+    .container {
+        flex-direction: column;
+        width: auto;
+    }
+    .att {
+        flex-direction: column;
+        height: auto;
+    }
+    aside {
+        flex-direction: column;
+        width: 100%;
+    }
 }
