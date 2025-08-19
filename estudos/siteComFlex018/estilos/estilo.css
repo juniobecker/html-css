@@ -368,8 +368,21 @@ div > ul {
     /* nav > ul {
         flex-direction: column;
     } */
+    .banner_headline{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2 {
+        font-size: 18px;
+    }
+
     #banner {
-        
+        height: auto;
     }
     .banner_options {
         flex-direction: column;
@@ -379,17 +392,53 @@ div > ul {
     #geral {
         flex-direction: column;
         height: auto;
+        padding: 20px;
     }
     .container {
         flex-direction: column;
+        justify-content: center;
         width: auto;
     }
+    .widget{
+        
+    }
+    .widget_body{ 
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
     .att {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        
+    }
+    div > article {
+        margin-right: 0px;
+        align-items: center;
+    }
+    .news_thumbnail{
+        width: 100%;
+        
+    }
+    .link {
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    aside {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer_area {
         flex-direction: column;
         height: auto;
     }
-    aside {
+    .footer_menu {
         flex-direction: column;
-        width: 100%;
     }
 }
