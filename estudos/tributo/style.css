@@ -8,13 +8,13 @@
 body {
     
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    
 }
 
 header {
     background-color: #1D4068;
     padding: 10px;
-    margin-bottom: 20px;
+    
     box-shadow: 4px 4px 8px #888888;
 }
 
@@ -39,26 +39,66 @@ h1{
 
 main {
     margin: auto;
-    width: 1000px;
+    
+    
 } 
 
-div.personagem {
+section > div.personagem {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-}
+    padding: 20px;
+    background-image: url(imagens/parque/castelo_horizontal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 680px;
+} 
 
-img {
-    height: 300px;
+section img {
+    height: 280px;
     border: #1D4068 5px solid;
     border-radius: 20px;
-    margin-bottom: 20px;
+    
+}
+img {
+    border: #1D4068 5px solid;
+    border-radius: 20px;
 }
 .personagem > img:hover  {
     transform: scale(1.1);
     transition: 1s;
     box-shadow: 4px 4px 8px #888888;
 }
+
+section.conteiner {
+    margin: auto;
+    padding: 20px;
+    background-color: #EBF06d;
+    border-radius: 10px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+li {
+    width: 500px;
+    background-color: white;
+    list-style: none;
+    padding: 8px;
+    border-radius: 10px;
+    
+    
+}
+
 
 h2, h3, h4 {
     color: #1D4068;
@@ -84,8 +124,10 @@ h2, h3, h4 {
 
 article {
     background-color: #d5eaf6;
+    width: 1000px;
     padding: 20px;
     border-radius: 10px;
+    margin: auto;
     
 }
 
@@ -94,4 +136,10 @@ article p {
     margin-bottom: 20px;
     line-height: 25px;
     text-shadow: 1px 1px 2px #dbdbdb;
+}
+.faisca {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
