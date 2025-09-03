@@ -121,8 +121,11 @@ h2, h3, h4 {
     
 
 }
-
 article {
+    padding: 50px;
+}
+
+.tributo {
     background-color: #d5eaf6;
     width: 1000px;
     padding: 20px;
@@ -155,6 +158,21 @@ article p {
     margin-bottom: 20px;
 }
 
+.faisca img {
+    height: 500px;
+    margin-bottom: 10px;
+}
+
 .faisca p {
     line-height: 30px;
+}
+
+.faisca p.cavalo {
+    line-height: 40px;
+}
+
+@media (max-width: 1000px) {
+    div > h1 {
+        color: red;
+    }
 }
