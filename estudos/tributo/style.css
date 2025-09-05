@@ -168,8 +168,21 @@ article p {
     line-height: 40px;
 }
 
-@media (max-width: 1000px) {
-    div > h1 {
-        color: red;
+@media (min-width: 400px) {
+    section.conteiner {
+        width: auto;
+    }
+    div.tributo {
+        width: auto;
+    }
+    div.animais {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section > div.personagem {
+        height: auto;
+        gap: 20px;
     }
 }
