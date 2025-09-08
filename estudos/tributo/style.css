@@ -156,7 +156,7 @@ article p {
 }
 
 .faisca img {
-    height: 500px;
+    height: 360px;
     margin-bottom: 10px;
 }
 
@@ -168,24 +168,7 @@ article p {
     line-height: 40px;
 }
 
-@media (max-width: 768px) {
-    section.conteiner {
-    margin: auto;
-    padding: 20px;
-    background-color: #EBF06d;
-    border-radius: 10px;
-    width: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-    .tributo {
-    background-color: #d5eaf6;
-    width: auto;
-    padding: 20px;
-    border-radius: 10px;
-    margin: auto;
-}
-}
+
 
 @media (max-width: 430px) {
     section.conteiner {
@@ -216,4 +199,15 @@ article p {
     .faisca {
         width: auto;
     }
+
+   
 }
+
+ @media (min-width: 1240px) {
+        section.conteiner {
+            width: 860px;
+        }
+        div.tributo {
+            width: 860px;
+        }
+    }
