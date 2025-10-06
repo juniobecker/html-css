@@ -6,6 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: 'Rigid';
+    src: url(RigidDisplayBold-PKjd2.otf) format('opentype');
+}
+
 body{
     background-color: #f0f0f0;
     color: #333;
@@ -32,8 +37,10 @@ section {
 
 div.frase {
     color: #071689;
+    font-family: 'Rigid';
     text-align: center;
     font-weight: bolder;
+    letter-spacing: 3px;
     font-size: 28px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
 }
