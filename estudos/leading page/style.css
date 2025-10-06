@@ -13,23 +13,27 @@ body{
 }
 
 header{
-    background: #50b3a2;
+    background: #FFE701;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+
+div.logomarca > img {
+    width: 200px;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8fcccc;
+    background-image: radial-gradient(circle, white, #FFE701 );
 }
 
-div {
+div.frase {
+    color: #071689;
     text-align: center;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 5px white;
+    font-weight: bolder;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
 }
