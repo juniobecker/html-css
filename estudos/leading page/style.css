@@ -52,14 +52,19 @@ article {
 .qualidades {
     display: flex;
     justify-content: space-around;
+    padding: 15px;
+    
 }
 
-div.icon {
-    width: 200px;
-    height: 200px;
-}
-
-div.icon > img {
+.icon {
+    text-align: center;
+    color: white;
     width: 100px;
     
 }
+
+div.iconimg > img {
+    width: 100px;
+    height: 100px;
+}
+
