@@ -8,7 +8,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
-    height: 100vh;
+    height: 100%;
+    
 }
 
 div.topo {
@@ -65,6 +66,7 @@ div.quadrado {
 
 div.google > img {
    width: 275px;
+   margin-bottom: 15px;
 }
 
 div.barra {
@@ -75,15 +77,42 @@ div.barra {
 }
 
 main {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 25px;
+    
     
 }
+
+button.pesquisar {
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 11px 4px;
+}
+
+footer {
+    background-color: rgb(105, 105, 105);
+    /* padding: 20px; */
+}
+
+footer > p {
+    padding: 15px;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+div.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+ }
+
+div.info1 > a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+ }
