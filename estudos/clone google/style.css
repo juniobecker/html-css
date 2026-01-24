@@ -81,6 +81,16 @@ div.barra {
     align-items: center;
 }
 
+.barra > input {
+    flex: 1;
+    height: 80%;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
 .barra > img {
     width: 24px;
     height: 24px;
@@ -112,7 +122,7 @@ a.pesquisar {
 }
 
 footer {
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(189, 189, 189);
     /* padding: 20px; */
 }
 
