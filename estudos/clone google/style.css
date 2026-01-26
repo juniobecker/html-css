@@ -144,3 +144,25 @@ div.info1 > a {
     padding: 15px;
     text-decoration: none;
  }
+
+ /* 688 px Width*/
+
+ @media (max-width: 688px) {
+    div.barra {
+        width: 450px;
+    }
+    div.mecanismo {
+    margin-top: 20px;
+    
+}
+    
+ }
+
+ @media (max-width: 453px) {
+    div.barra {
+        width: 300px;
+    }
+    img.lupa {
+        display: none;
+    }
+ }
