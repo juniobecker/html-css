@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+
+body > div:last-child {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+body :not(p) {
+    background-color: red;
+    font-size: 25px;
+}
