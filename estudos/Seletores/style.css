@@ -16,4 +16,5 @@ body > div:last-child {
 body :not(p) {
     background-color: red;
     font-size: 25px;
+    
 }
